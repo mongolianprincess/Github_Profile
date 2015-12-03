@@ -46,7 +46,7 @@
 //         ctrl.searchTerm = 'hello';
 //         ctrl.doSearch();
 //         httpBackend.flush();
-        expect(ctrl.searchResult.donaldDuck).toEqual(items);
+        // expect(ctrl.searchResult.donaldDuck).toEqual(items);
 //       });
 //     });
 // });
