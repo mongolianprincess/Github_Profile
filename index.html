@@ -16,7 +16,7 @@
     <div>
       <form class="form-horizontal">
 
-        <input type="text" ng-model="searchCtrl.searchTerm" ng-change="searchCtrl.doSearch()" ng-mode-options="{updateOn: 'default blur', deboune: {'default':500, 'blur':0}" ng-lenght="">
+        <input type="text" ng-model="searchCtrl.searchTerm" ng-change="searchCtrl.doSearch()" ng-mode-options="{updateOn: 'default blur', deboune: {'default':500, 'blur':0}" ng-lenght="1">
         <button class="btn" ng-click="searchCtrl.doSearch()">Search</button>
         <label for = "result" ng-show="searchCtrol.searchTerm.length">{{searchCtrl.searchTerm}}</label>
       </form>
