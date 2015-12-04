@@ -15,7 +15,8 @@
     "karma-phantomjs-launcher": "^0.2.1",
     "phantom": "^0.8.4",
     "phantomjs": "^1.9.19",
-    "protractor": "^3.0.0"
+    "protractor": "^3.0.0",
+    "protractor-http-mock": "^0.2.0"
   },
   "dependencies": {
     "http-server": "^0.8.5"
